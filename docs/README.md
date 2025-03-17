@@ -7,17 +7,24 @@ This repository contains the sample code, solutions to the exercises and game as
 </p>
 
 ## How to Get Started
-Assuming you own a copy of the book, here's what you need to do to get started with game development:
+Assuming you own a copy of the book, you need to follow a couple of steps to get started with game development. Once you've completed these steps successfully, you're ready to enjoy the book to its fullest!
+
+The book was written to work with specific versions of Visual Studio (a program for writing and compiling code) and MonoGame (an open-source library that adds game-specific functionality to the C# language). Both Visual Studio and Monogame have received many updates since the book's release. We'll do our best to keep the samples and instructions up-to-date, so that you can keep working with the book as long as possible.
+
+**In March 2025, we've updated our samples to MonoGame 3.8.1 and Visual Studio Community 2022.** If you want to use these recent versions of the software, follow the "New instructions" below. If you want to use the old software versions from when the book was released, follow the "Original instructions (2019)".
+
+### New instructions (March 2025)
+1. Follow the instructions in the [MonoGame Documentation](https://docs.monogame.net/articles/getting_started/2_choosing_your_ide_visual_studio.html) to first install Visual Studio with the right components and then the MonoGame extension.
+2. Read Chapter 1 of the book (except Section 1.6) and follow the instructions there. This will let you run and change your first MonoGame project in Visual Studio, to verify that the installation worked. Because you're using newer software versions, some details will be slightly different than in the book. For example, the correct project template is now called "MonoGame Windows Desktop Application" instead of "MonoGame Windows Project". 
+3. Download all example programs from our repository. To do this, go to our GitHub repository [(github.com/egges/csharpgames)](https://github.com/egges/csharpgames), click the green 'Clone or Download' button near the top, and choose 'Download ZIP'. Download the ZIP file to a location on your PC. Then **extract (unpack) the ZIP file**, otherwise the programs won't work!
+4. Read Section 1.6 of the book and follow the instructions there. This will let you open an example project and play the first game of our book: Painter. 
+
+### Original instructions (2019):
 1. Download and install [Visual Studio Community 2017](https://visualstudio.microsoft.com/vs/older-downloads/)*, a free program by Microsoft for writing and compiling code in C#. Follow the installation instructions, and make sure to (at least) include the components for C# development. You will see many more options (and you're free to install them), but you won't need them for this book.
 2. Download and install [MonoGame 3.6](http://www.monogame.net/2017/03/01/monogame-3-6/)*, an open-source library that adds game-specific functionality to the C# language.
 3. Download and install the [Visual C++ 2012 Redistributable for VS2012](https://www.microsoft.com/en-us/download/confirmation.aspx?id=30679). This is required for running any MonoGame project that has text in it. (Otherwise, you will get error pop-ups about missing files such as "freetype6.dll".)
-4. Read Chapter 1 of the book (except Section 1.6) and follow the instructions there. This will let you run and change your first MonoGame project in Visual Studio, to verify that the installation worked.
-5. Download all example programs from our repository. To do this, go to our GitHub repository [(github.com/egges/csharpgames)](https://github.com/egges/csharpgames), click the green 'Clone or Download' button near the top, and choose 'Download ZIP'. Download the ZIP file to a location on your PC. Then **extract (unpack) the ZIP file**, otherwise the programs won't work!
-6. Read Section 1.6 of the book and follow the instructions there. This will let you open an example project and play the first game of our book: Painter.
-
-Once you've completed these steps successfully, you're ready to enjoy the book to its fullest!
-
-(*) Both Visual Studio and MonoGame receive new versions quite often. This is difficult for us to keep track of, especially with a printed book. We advise you to use Visual Studio 2017 and MonoGame 3.6, to be 100% sure that the example projects will run. If you really want to use newer versions, then you are free to do this at your own risk.
+4. Download all example programs from our GitHub repository. To get the projects for VS2017 and MonoGame 3.6, go to [the specific version of our repo linked here](https://github.com/egges/csharpgames/tree/3f8da902d07ccf083847d551eaa4af671e3b735a), click the green 'Clone or Download' button near the top, and choose 'Download ZIP'. Download the ZIP file to a location on your PC. Then **extract (unpack) the ZIP file**, otherwise the programs won't work!
+5. Read Section 1.6 of the book and follow the instructions there. This will let you open an example project and play the first game of our book: Painter. 
 
 ## About the Book
 Developing computer games is a perfect way to learn how to program in modern programming languages. This book teaches you how to program in the language C# through the creation of computer games – and without requiring any previous programming experience.
