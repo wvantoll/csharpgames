@@ -146,6 +146,12 @@ namespace Engine
             graphics.PreferredBackBufferWidth = screenSize.X;
             graphics.PreferredBackBufferHeight = screenSize.Y;
 
+            // Bugfix (March 2025): On Windows in full-screen mode, the mouse position was offset by a small amount.
+            // Applying the changes twice in this way fixes the issue.
+            // Source: https://community.monogame.net/t/full-screen-visible-mouse-coordinates-off/18818/5
+            graphics.HardwareModeSwitch = false;
+            graphics.ApplyChanges();
+            graphics.HardwareModeSwitch = true;
             graphics.ApplyChanges();
 
             // calculate and set the viewport to use
