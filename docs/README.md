@@ -20,7 +20,7 @@ The book was written to work with specific versions of Visual Studio (a program 
 4. Read Section 1.6 of the book and follow the instructions there. This will let you open an example project and play the first game of our book: Painter.
 5. Note: the "MonoGame Pipeline Tool" (introduced in Chapter 5 of the book) is now called "MGCB Editor". It still works the same as in 2019, though.
 
-### Original instructions (2019):
+### Original instructions (2019)
 1. Download and install [Visual Studio Community 2017](https://visualstudio.microsoft.com/vs/older-downloads/). Follow the installation instructions, and make sure to (at least) include the components for C# development. You will see many more options (and you're free to install them), but you won't need them for this book.
 2. Download and install [MonoGame 3.6](https://github.com/MonoGame/MonoGame/releases/tag/v3.6). You'll need the file _MonoGameSetup.exe_ from the linked page.
 3. Download and install the [Visual C++ 2012 Redistributable for VS2012](https://www.microsoft.com/en-us/download/confirmation.aspx?id=30679). This is required for running any MonoGame project that has text in it. (Otherwise, you will get error pop-ups about missing files such as "freetype6.dll".)
