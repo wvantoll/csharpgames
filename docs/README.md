@@ -17,7 +17,8 @@ The book was written to work with specific versions of Visual Studio (a program 
 1. Follow the instructions in the [MonoGame Documentation](https://docs.monogame.net/articles/getting_started/2_choosing_your_ide_visual_studio.html) to first install Visual Studio with the right components and then the MonoGame extension.
 2. Read Chapter 1 of the book (except Section 1.6) and follow the instructions there. This will let you run and change your first MonoGame project in Visual Studio, to verify that the installation worked. Because you're using newer software versions, some details will be slightly different than in the book. For example, the correct project template is now called "MonoGame Windows Desktop Application" instead of "MonoGame Windows Project". 
 3. Download all example programs from our repository. To do this, go to our GitHub repository [(github.com/egges/csharpgames)](https://github.com/egges/csharpgames), click the green 'Clone or Download' button near the top, and choose 'Download ZIP'. Download the ZIP file to a location on your PC. Then **extract (unpack) the ZIP file**, otherwise the programs won't work!
-4. Read Section 1.6 of the book and follow the instructions there. This will let you open an example project and play the first game of our book: Painter. 
+4. Read Section 1.6 of the book and follow the instructions there. This will let you open an example project and play the first game of our book: Painter.
+5. Note: the "MonoGame Pipeline Tool" (introduced in Chapter 5 of the book) is now called "MGCB Editor". It still works the same as in 2019, though.
 
 ### Original instructions (2019):
 1. Download and install [Visual Studio Community 2017](https://visualstudio.microsoft.com/vs/older-downloads/). Follow the installation instructions, and make sure to (at least) include the components for C# development. You will see many more options (and you're free to install them), but you won't need them for this book.
