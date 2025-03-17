@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenguinPairs5a", "PenguinPairs5a\PenguinPairs5a.csproj", "{F2F2C64C-EB19-498E-8B98-B032AB3FBAA0}"
-	ProjectSection(ProjectDependencies) = postProject
-		{11B5C378-02F1-48F0-AA0C-B02476CD3512} = {11B5C378-02F1-48F0-AA0C-B02476CD3512}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{11B5C378-02F1-48F0-AA0C-B02476CD3512}"
 EndProject
